@@ -542,6 +542,9 @@ a:active {
 			}
 		}
 	}
+	@include responsive(sp) {
+		margin-top: 60px;
+	}
 }
 
 
@@ -2151,32 +2154,27 @@ ul.foot_menu_sp{
   cursor: pointer;
   background-color: transparent;
   border: none;
-  /*
   @include responsive(tab) {
     width: 40px;
     height: 40px;
+    margin-top: -20px;
   }
-  */
 }
 
 .slick-prev {
   left: 20px;
   background-image: url("../images/prev.png");
-  /*
   @include responsive(tab) {
     left: 5px;
   }
-  */
 }
 
 .slick-next {
   right: 20px;
   background-image: url("../images/next.png");
-  /*
   @include responsive(tab) {
     right: 5px;
   }
-  */
 }
 
 .slick-prev:hover,
@@ -2193,12 +2191,11 @@ ul.foot_menu_sp{
   z-index: 9998;
   text-indent: -9999px;
   outline: 0;
-  /*
   @include responsive(tab) {
     width: 40px;
     height: 40px;
+    margin-top: -20px;
   }
-  */
 }
 
 .slick-prev:hover,
@@ -2206,11 +2203,9 @@ ul.foot_menu_sp{
   left: 20px;
   background-image: url("../images/prev.png");
   opacity: .6;
-  /*
   @include responsive(tab) {
     left: 5px;
   }
-  */
 }
 
 .slick-next:hover,
@@ -2218,11 +2213,9 @@ ul.foot_menu_sp{
   right: 20px;
   background-image: url("../images/next.png");
   opacity: .6;
-  /*
   @include responsive(tab) {
     right: 5px;
   }
-  */
 }
 
 
